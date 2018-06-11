@@ -1,0 +1,164 @@
+.about1 {
+  background: linear-gradient(to bottom right, #ff738e, #66ccff);
+}
+
+.about2 {
+  background: linear-gradient(to bottom left, #ffd77a, #ff738e);
+}
+
+.about3 {
+  background: linear-gradient(to bottom right, #66ccffff, #a46bff);
+}
+
+
+
+.media_scroll {
+  height: 150px;
+  width: 100vw;
+  overflow: hidden;
+  background: linear-gradient(to top, #ff738e, #66ccff);
+  z-index: 20;
+  position: relative;
+}
+
+.media_scroll_list {
+  list-style: none;
+  width: 10000px;
+  z-index: inherit;
+}
+
+.media_scroll_list_item {
+  float: left;
+  vertical-align: middle;
+  width: 500px;
+  margin: 15px 0px 0px 0px;
+  text-align: center;
+  z-index: inherit;
+}
+
+.media_scroll_list_item_img {
+  z-index: inherit;
+}
+
+.adjust_list_item {
+  margin-top: 20px;
+}
+
+.adjust_list_item_2 {
+  margin-top: 15px;
+}
+
+.adjust_list_item_3 {
+  margin-top: 30px;
+}
+
+#gma_list_item {
+  /*margin-top:*/
+}
+
+#bustle_img, #maxim_img {
+  height: 80px;
+  width: 290px;
+}
+
+#bild_img {
+  height: 100px;
+}
+
+#cnet_img {
+  height: 100px;
+  width: 100px;
+}
+
+#sun_img {
+  height: 80px;
+  width: 250px;
+}
+
+#mashable_img {
+  height: 55px;
+  width: 275px;
+}
+
+#maxim_img {
+  height: 55px;
+}
+
+#gma_img {
+  height: 90px;
+  width: 290px;
+}
+
+
+.hero-img {
+  height: 600px;
+}
+
+.social-links {
+  list-style-type: none;
+}
+
+.tech-container {
+  margin-left: 10rem;
+}
+
+.flag_france::after {
+  content: url('../img/flags/france.svg');
+}
+.flag_romania::after {
+  content: url('../img/flags/romania.svg');
+}
+.flag_bulgaria::after {
+  content: url('../img/flags/bulgaria.svg');
+}
+.flag_jamaica::after {
+  content: url('../img/flags/jamaica.svg');
+}
+.flag_slovenia::after {
+  content: url('../img/flags/slovenia.svg');
+}
+.flag_uk::after {
+  content: url('../img/flags/uk.svg');
+}
+.flag_scotland::after {
+  content: url('../img/flags/scotland.svg');
+}
+.flag_austria::after {
+  content: url('../img/flags/austria.svg');
+}
+.flag_russia::after {
+  content: url('../img/flags/russia.svg');
+}
+.flag_india::after {
+  content: url('../img/flags/india.svg');
+}
+
+@media (max-width: 768px)  {
+  .hero-img {
+    height: 300px;
+  }
+
+  .tech-img {
+    display: none;
+    box-shadow: none !important;
+  }
+
+  .tech-container {
+    margin-left: auto;
+  }
+}
+
+.sub-container {
+  padding-top: 20rem !important;
+}
+
+.tech-main {
+  background-image: url("../img/mesh-bg2.jpg");
+}
+
+@media (max-width: 420px)  {
+    .tech-main {
+      background-image: url("../img/mesh-bg-mobile.jpg");
+      padding: 5rem 0 !important;
+    }
+}
